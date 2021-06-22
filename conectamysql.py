@@ -56,6 +56,6 @@ def consultadb():
     return json.dumps(datajson)
 if __name__=="__main__":
     
-    insertadb()
+    #insertadb()
     consultadb()
         
