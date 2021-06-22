@@ -189,6 +189,10 @@ def conectadb():
 ```
 pip3 install pymsql pymsql.cursors
 ```
+* Edite el archivo app.py en las últimas lineas cambiando el if __name__=="__main"__ por este código
+```
+```
+
 ## Construido con 🛠️
 
 * [Python-Flask](https://flask.palletsprojects.com/en/2.0.x/) - El framework web usado
