@@ -191,6 +191,10 @@ pip3 install pymsql pymsql.cursors
 ```
 * Edite el archivo app.py en las últimas lineas cambiando el if __name__=="__main"__ por este código
 ```
+import os
+if __name__ == '__main__':
+    server_port = os.environ.get('PORT', '8080')
+    app.run(debug=False, port=server_port, host='0.0.0.0')
 ```
 
 ## Construido con 🛠️
